@@ -1,0 +1,18 @@
+.odd{
+    background-color: rgb(241, 174, 202);
+    font-family: Verdana,DejaVu Sans, sans-serif;
+}
+
+#even{
+    color: blue;
+    font-size: 36px;
+}
+
+.odd.num3{
+    font-size: 24px;
+}
+
+#even-num4{
+    background-color: rgb(135, 222, 135);
+    font-size: 24px;
+}
