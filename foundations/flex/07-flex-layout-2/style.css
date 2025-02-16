@@ -10,9 +10,16 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 900;
+  font-size: 32px;
+  display:flex;
+  align-items:center;
+  padding:0 16px;
+}
 
+.body{
+  flex: 1;
+  display: flex;
 }
 
 .footer {
@@ -20,12 +27,16 @@ body {
   background: #eee;
   color: darkmagenta;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink:0;
+  padding:0;
 }
 
 .card {
@@ -33,13 +44,29 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   justify-content: space-between;
+  padding:16px;
+  width:300px;
 }
 
 ul{
-  list-style: none;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+li{
+  margin-bottom:16px;
 }
 
 a{
   text-decoration: none;
   color: white;
+  font-size:24px;
+}
+
+.container{
+  padding: 48px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:32px;
 }
